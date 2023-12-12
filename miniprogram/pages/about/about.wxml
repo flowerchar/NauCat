@@ -1,0 +1,46 @@
+<view style="display:flex; justify-content:center; align-items:center;">
+  <image bindtap='previewImage' mode="widthFix" data-src="/pages/images/huihui.png" src="/pages/images/huihui.png" style="width: 80%;">
+  </image>
+</view>
+
+<text> \n </text>
+
+<view class="head1">简介</view>
+
+<view class="body">
+  南审猫猫：帮助南京审计大学学生快速认识校园里的流浪猫。
+</view>
+
+<view class="head1">联系方式</view>
+<view class="body">
+  手机号：<text user-select="true">13952062557</text>
+</view>
+<view class="body">
+  邮箱：<text user-select="true">1941029880@qq.com</text>
+</view>
+<view class="body">
+  公众号：<text user-select="true">敬请期待</text>
+</view>
+
+<text> \n </text>
+
+<view class="staff">
+  小程序开发：circle
+</view>
+<view class="staff">
+  信息整理：黑猹
+</view>
+<view class="staff">
+  v2.3.3
+</view>
+
+<text> \n </text>
+
+<view class="itemname1">
+  <view bindtap="naviToMini" style='flex-shrink:0; box-sizing:border-box; width:90rpx;'>
+    <image style="width:90rpx;height:90rpx;" src="/pages/images/circle.png"></image>
+    <view style="text-align: center;  color:#353535;"> \n 高校动保索引 </view>
+  </view>
+</view>
+
+<text> \n </text>

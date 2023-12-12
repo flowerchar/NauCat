@@ -1,0 +1,35 @@
+{
+  "pages": [ 
+    "pages/index/index",
+    "pages/about/about",
+    "pages/search/search",
+    "pages/catDetail/catDetail",
+    "pages/editCat/editCat",
+    "pages/addCat/addCat",
+    "pages/logs/logs",
+    "pages/所有/所有",
+    "pages/花色/花色"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "南审猫猫",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor":"#7CA698",
+    "color": "#888888",
+    "list": [
+      {
+        "text": "查猫",
+        "pagePath": "pages/index/index"
+      },
+      {
+        "text": "关于",
+        "pagePath": "pages/about/about"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents"
+}
